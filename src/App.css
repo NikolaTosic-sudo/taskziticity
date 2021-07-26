@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  transition-duration: 0.4s;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #249ad5;
+}
+
+.button2 {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #249ad5;
+  color: white;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
